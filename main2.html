@@ -1,0 +1,85 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>MD.PH</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/material-design-iconic-font.min.css" />
+		
+		<link rel="stylesheet" href="css/jquery.mobile.min.css" />
+		<link rel="stylesheet" href="vendor/waves/waves.min.css" />
+		<link rel="stylesheet" href="vendor/wow/animate.css" />
+		<link rel="stylesheet" href="css/nativedroid2.css" />
+		<link rel="stylesheet" href="css/pagasa.css" />
+		<style>/* Prevent FOUC */body { opacity: 0; }</style>
+		<style type="text/css">
+			#showDaily,#showDailyHome {margin-left:12%;}
+			.forecast {margin-left:12%;padding-top:5%;}
+			.wIcon{margin-left: -24px;}
+			
+			/* Set the background image sources */
+#newyork { background-image: url("img/page1.jpg"); }
+#paris { background-image: url("img/page2.jpg"); }
+#seoul { background-image: url("img/page3.jpg"); }
+/* Background settings */
+.demo-page {
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/* Transparent footer */
+.demo-page .ui-footer {
+	background: none;
+	border: none;
+	bottom: 0;
+}
+/* The footer won't have a height because there are only two absolute positioned elements in it.
+So we position the buttons from the bottom. */
+.control.ui-btn-left,
+.trivia-btn.ui-btn-right {
+	top: auto;
+	bottom: 7px;
+	margin: 0;
+}
+/* Custom styling for the trivia source */
+small {
+	font-size: .75em;
+	color: #666;
+}</style>
+	</head>
+	<body >
+	
+<div id="header" data-role="header" data-id="header" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+	<h1>MD.PH</h1>
+    <a href="profile.html" data-ajax="false" data-direction="reverse" data-icon="delete" data-iconpos="notext" data-shadow="false" data-icon-shadow="false">Back</a>
+</div><!-- /header -->
+
+<div data-role="page" id="newyork" class="demo-page" data-title="Search/Find" data-dom-cache="true" data-theme="b" data-prev="newyork" data-next="seoul">
+
+	<div role="main" class="ui-content">
+
+
+	</div><!-- /content -->
+
+</div><!-- /page -->
+
+<div id="footer" data-id="footer" data-position="fixed" data-fullscreen="true" data-tap-toggle="false">
+	<div data-role="controlgroup" class="control ui-btn-left" data-type="horizontal" data-mini="true">
+    	<a href="#" class="prev ui-btn ui-btn-icon-notext ui-icon-carat-l">Previous</a>
+    	<a href="#" class="next ui-btn ui-btn-icon-notext ui-icon-carat-r">Next</a>
+    </div>
+
+</div><!-- /footer -->
+	
+<script src="cordova.js"></script>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/jquery.mobile.min.js"></script>
+		<script src="vendor/waves/waves.min.js"></script>
+		<script src="vendor/wow/wow.min.js"></script>
+		<script src="js/nativedroid2.js"></script>
+		<script src="nd2settings.js"></script>
+		<script src="http://demos.jquerymobile.com/1.4.2/swipe-page/swipe-page.js"></script>
+		
+	</body>
+</html>
