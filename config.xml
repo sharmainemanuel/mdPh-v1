@@ -6,11 +6,6 @@
 <<<<<<< HEAD
         id        = "ph.gov.dost.mdph.gc.css"
         version   = "1.00">
-=======
-        id        = "ph.gov.dost.pagasa.gc.css"
-        version   = "2.30">
->>>>>>> origin/master
-
     <name>PAGASA</name>
 
     <description>
